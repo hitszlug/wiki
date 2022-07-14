@@ -32,6 +32,10 @@ Too long; didn't read. ~~即 “太长不看”~~ 废话不多说，就是这款
 
 ## fasd [![fasd status](https://repology.org/badge/tiny-repos/fasd.svg)](https://repology.org/project/fasd/versions)
 
+!!! danger
+    fasd 已经不再被维护，这意味着最好寻找其他的代替方案。
+    可以考虑一下使用更现代化的 zoxide。
+
 ### 简介
 
 虽说 `z` 快速转跳鼎鼎大名，但我用过最舒服的还是这个工具。只要你曾经访问过某个目录货文件，fasd 能让你只输入目录名或文件名就实现全路径的引用或转跳，而且转跳命令也是 `z`——例如，输入 `z dow` 即可从任意位置转跳到 `~/Download`。fasd 的命令还方便记忆：`f` 代表 file，`a` 代表 all，`s` 代表 show，`d` 代表 directory，完全没有上手难度。
